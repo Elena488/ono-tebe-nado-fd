@@ -19,7 +19,7 @@
 .header__links-list {
     list-style: circle;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .header__links-list-item {
@@ -28,7 +28,7 @@
 }
 
 .header__links-list-item_no-bullit {
-    list-style: none; 
+    list-style: none;
 }
 
 .header__link {
@@ -70,7 +70,7 @@
 .cover {
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     display: grid;
     position: relative;
@@ -170,7 +170,7 @@ section {
 
 .lots__card-list-item {
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     height: 100%;
     display: grid;

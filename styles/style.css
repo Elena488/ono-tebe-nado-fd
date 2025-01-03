@@ -168,7 +168,7 @@ section {
     padding: 27px 24px 30px;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -181,6 +181,7 @@ section {
     background-image: url(../images/card-lot-01.jpg);
     z-index: 0;
 }
+
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
 }

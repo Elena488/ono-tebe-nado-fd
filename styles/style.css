@@ -37,14 +37,14 @@
     list-style: none;
     padding-left: 0;
     font-size: 18px;
-    line-height: 21px;  
+    line-height: 21px;
 }
 
 .header__links-list-item_no-bullit > a {
     text-decoration: none;
 }
 
-.header__logo { 
+.header__logo {
     grid-area: header__logo;
     height: 100%;
     align-self: center;
@@ -53,7 +53,6 @@
 .address {
     font-style: normal;
     font-size: 18px;
-    font-style: normal;
     line-height: 24.3px;
 }
 
@@ -65,7 +64,7 @@
     width: 240px;
 }
 
-.address__list{
+.address__list {
     display: flex;
     list-style: none;
     flex-direction: column;

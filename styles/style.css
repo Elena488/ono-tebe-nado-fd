@@ -1,13 +1,10 @@
 /* место для вашего кода */
-.header {
-    height: 293px;
+.header {   
     padding: 92px 50px 96px;
     display: grid;
     grid-template-columns: 428px 148px 1fr;
-    /*grid-template-rows: 105px;*/
     grid-template-areas:
     "header__menu header__logo header__address";
-   
 }
 
 .header__menu {
@@ -47,7 +44,8 @@
 .header__logo {
     grid-area: header__logo;
     height: 100%;
-    align-self: center;
+    align-self: start;
+    justify-self: center;
 }
 
 .address {
@@ -58,9 +56,8 @@
 
 .header__address {
     grid-area: header__address;
-    padding-top: 3px;
-    padding-bottom: 4px;
     justify-self: end;
+    align-self: center;
     width: 240px;
 }
 
@@ -179,34 +176,32 @@
 }
 
 .lots__card-list-item {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 100%;
     display: grid;
     position: relative;
 }
 
-.lots__card-list-item-film {
+.card_type_film {
     background-image: url(../images/lot1.png);
-    z-index: 0;
 }
 
-.lots__card-list-item-book {
+.card_type_book {
     background-image: url(../images/lot2.jpg);
 }
 
-.lots__card-list-item-picture {
+.card_type_picture {
     background-image: url(../images/lot3.png);
 }
 
 .card-link {
     height: 100%;
     text-decoration: none;
-    z-index: 3;
 }
 
 .card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 48px 40px;
     z-index: 2;
     width: 334px;
@@ -218,6 +213,7 @@
 }
 
 .card__title {
+    z-index: 2;
     color: #fff;
     font-size: 22px;
     font-weight: 700;
@@ -232,6 +228,7 @@
 }
 
 .card__text {
+    z-index: 2;
     color: #fff;
     font-size: 20px;
     font-style: normal;
@@ -244,7 +241,7 @@
     font-size: 20px;
     font-weight: 400;
     border-bottom: 1px solid #000;
-    padding-top: 30px;
+    margin-top: 30px;
     margin-left: 64px;
 }
 
